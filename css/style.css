@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    height:200px;
+    width:400px;
+    padding: 20px;
+    border:10px solid red;
+}
+
+.box-border{
+    height:200px;
+    width:400px;
+    padding: 20px;
+    border:10px solid cyan;
+}
+
+.col{
+    width:25%;
+    float:left;
+    border: 3px solid blue;
+}
+@media (max-width: 768px) {
+    .col{
+        width:50%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .col{
+        width:100%;
+    }
+}
+
